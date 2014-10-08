@@ -13,7 +13,12 @@ window.onload = function(){
 	document.onclick = function(){
 		alert(document.documentElement.clientHeight);
 	}
-	alert(2)
+	alert(2);
+	var oUl = document.createElement('ul');
+	var oli = document.createElement('li');
+	oli.innerHTML = '11111111';
+	oUl.appendChild(oli);
+	document.body.appendChild(oUl);
 }
 </script>
 </head>
